@@ -2,6 +2,11 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-            System.out.println("hello world");
+        System.out.println("hello world");
+        String[] literki = {"a","b","c"};
+
+        for (String s : literki) {
+            System.out.println(s);
+        }
         }
     }
