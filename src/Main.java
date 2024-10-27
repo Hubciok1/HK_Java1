@@ -5,9 +5,17 @@ public class Main {
         System.out.println("hello world");
         String[] literki = {"a","b","c"};
 
-        for (String s : literki) {
+        for (String s : literki)
+        {
             System.out.println(s);
         }
+
         Integer[] liczby = {1,2,3,4,5,6,7};
+
+
         }
+    public static void add (int a, int b)
+    {
+        System.out.println(a+b);
     }
+}
